@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.axtonsun.axtonroid_view.MainActivity">
+
+ <Button
+     android:id="@+id/btn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+ <com.example.axtonsun.axtonroid_view.CustomView
+     android:layout_width="80dp"
+     android:layout_height="80dp"
+     android:id="@+id/customview"
+     android:layout_margin="50dp"
+     android:background="@android:color/holo_red_light"/>
+</LinearLayout>
